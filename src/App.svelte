@@ -18,6 +18,12 @@
   import EachBlocks from "./lib/04. Logic/d_EachBlocks.svelte";
   import KeyedEachBlocks from "./lib/04. Logic/e_KeyedEachBlocks.svelte";
   import AwaitBlocks from "./lib/04. Logic/f_AwaitBlocks.svelte";
+  import DOMEvents from "./lib/05. Events/a_DOMEvents.svelte";
+  import InlineHandlers from "./lib/05. Events/b_InlineHandlers.svelte";
+  import EventModifiers from "./lib/05. Events/c_EventModifiers.svelte";
+  import ComponentEvents from "./lib/05. Events/d_ComponentEvents.svelte";
+  import EventForwarding from "./lib/05. Events/e_EventForwarding.svelte";
+  import DOMEventForwarding from "./lib/05. Events/f_DOMEventForwarding.svelte";
 </script>
 
 <main>
@@ -44,6 +50,13 @@
   <EachBlocks />
   <KeyedEachBlocks />
   <AwaitBlocks />
+  <!-- 05. Events -->
+  <DOMEvents />
+  <InlineHandlers />
+  <EventModifiers />
+  <ComponentEvents on:message={(e) => alert(e.detail.text)} />
+  <EventForwarding on:message={(e) => alert(e.detail.text)} />
+  <DOMEventForwarding on:click={() => alert("click")} />
 </main>
 
 <style>
