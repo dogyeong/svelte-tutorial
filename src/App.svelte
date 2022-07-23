@@ -24,6 +24,20 @@
   import ComponentEvents from "./lib/05. Events/d_ComponentEvents.svelte";
   import EventForwarding from "./lib/05. Events/e_EventForwarding.svelte";
   import DOMEventForwarding from "./lib/05. Events/f_DOMEventForwarding.svelte";
+  import TextInputs from "./lib/06. Bindings/a_TextInputs.svelte";
+  import NumericInputs from "./lib/06. Bindings/b_NumericInputs.svelte";
+  import CheckboxInputs from "./lib/06. Bindings/c_CheckboxInputs.svelte";
+  import GroupInputs from "./lib/06. Bindings/d_GroupInputs.svelte";
+  import TextareaInputs from "./lib/06. Bindings/e_TextareaInputs.svelte";
+  import SelectBindings from "./lib/06. Bindings/f_SelectBindings.svelte";
+  import SelectMultiple from "./lib/06. Bindings/g_SelectMultiple.svelte";
+  import ContenteditableBindings from "./lib/06. Bindings/h_ContenteditableBindings.svelte";
+  import EachBlockBindings from "./lib/06. Bindings/i_EachBlockBindings.svelte";
+  import MediaElements from "./lib/06. Bindings/j_MediaElements.svelte";
+  import Dimensions from "./lib/06. Bindings/k_Dimensions.svelte";
+  import This from "./lib/06. Bindings/l_This.svelte";
+  import ComponentBindings from "./lib/06. Bindings/m_ComponentBindings.svelte";
+  import BindingToComponentInstances from "./lib/06. Bindings/n_BindingToComponentInstances.svelte";
 </script>
 
 <main>
@@ -57,6 +71,22 @@
   <ComponentEvents on:message={(e) => alert(e.detail.text)} />
   <EventForwarding on:message={(e) => alert(e.detail.text)} />
   <DOMEventForwarding on:click={() => alert("click")} />
+
+  <!-- 06. Bindings -->
+  <TextInputs />
+  <NumericInputs />
+  <CheckboxInputs />
+  <GroupInputs />
+  <TextareaInputs />
+  <SelectBindings />
+  <SelectMultiple />
+  <ContenteditableBindings />
+  <EachBlockBindings />
+  <MediaElements />
+  <Dimensions />
+  <This />
+  <ComponentBindings />
+  <BindingToComponentInstances />
 </main>
 
 <style>
