@@ -48,6 +48,13 @@
   import OnDestroy from "./lib/07. Lifecycle/b_OnDestroy.svelte";
   import BeforeUpdate from "./lib/07. Lifecycle/c_BeforeUpdate.svelte";
   import Tick from "./lib/07. Lifecycle/d_Tick.svelte";
+
+  import WritableStores from "./lib/08. Stores/a_WritableStores/App.svelte";
+  import AutoSubscriptions from "./lib/08. Stores/b_AutoSubscriptions/App.svelte";
+  import ReadableStores from "./lib/08. Stores/c_ReadableStores/App.svelte";
+  import DerivedStores from "./lib/08. Stores/d_DerivedStores/App.svelte";
+  import CustomStores from "./lib/08. Stores/e_CustomStores/App.svelte";
+  import StoreBindings from "./lib/08. Stores/f_StoreBindings/App.svelte";
 </script>
 
 <main>
@@ -103,6 +110,14 @@
   <OnDestroy />
   <BeforeUpdate />
   <Tick />
+
+  <!-- 08. Stores -->
+  <WritableStores />
+  <AutoSubscriptions />
+  <ReadableStores />
+  <DerivedStores />
+  <CustomStores />
+  <StoreBindings />
 </main>
 
 <style>
