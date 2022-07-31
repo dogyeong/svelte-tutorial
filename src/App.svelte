@@ -55,6 +55,9 @@
   import DerivedStores from "./lib/08. Stores/d_DerivedStores/App.svelte";
   import CustomStores from "./lib/08. Stores/e_CustomStores/App.svelte";
   import StoreBindings from "./lib/08. Stores/f_StoreBindings/App.svelte";
+
+  import Tweened from "./lib/09. Motion/a_Tweened.svelte";
+  import Spring from "./lib/09. Motion/b_Spring.svelte";
 </script>
 
 <main>
@@ -118,6 +121,10 @@
   <DerivedStores />
   <CustomStores />
   <StoreBindings />
+
+  <!-- 09. Motion -->
+  <Tweened />
+  <Spring />
 </main>
 
 <style>
