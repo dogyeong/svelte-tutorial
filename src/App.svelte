@@ -58,6 +58,15 @@
 
   import Tweened from "./lib/09. Motion/a_Tweened.svelte";
   import Spring from "./lib/09. Motion/b_Spring.svelte";
+
+  import TheTransitionDirective from "./lib/10. Transitions/a_TheTransitionDirective.svelte";
+  import AddingParameters from "./lib/10. Transitions/b_AddingParameters.svelte";
+  import InAndOut from "./lib/10. Transitions/c_InAndOut.svelte";
+  import CustomCssTransitions from "./lib/10. Transitions/d_CustomCssTransitions.svelte";
+  import TransitionEvents from "./lib/10. Transitions/e_TransitionEvents.svelte";
+  import LocalTransitions from "./lib/10. Transitions/f_LocalTransitions.svelte";
+  import DeferredTransitions from "./lib/10. Transitions/g_DeferredTransitions.svelte";
+  import KeyBlocks from "./lib/10. Transitions/h_KeyBlocks.svelte";
 </script>
 
 <main>
@@ -125,6 +134,16 @@
   <!-- 09. Motion -->
   <Tweened />
   <Spring />
+
+  <!-- 10. Transitions -->
+  <TheTransitionDirective />
+  <AddingParameters />
+  <InAndOut />
+  <CustomCssTransitions />
+  <TransitionEvents />
+  <LocalTransitions />
+  <DeferredTransitions />
+  <KeyBlocks />
 </main>
 
 <style>
