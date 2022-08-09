@@ -67,6 +67,8 @@
   import LocalTransitions from "./lib/10. Transitions/f_LocalTransitions.svelte";
   import DeferredTransitions from "./lib/10. Transitions/g_DeferredTransitions.svelte";
   import KeyBlocks from "./lib/10. Transitions/h_KeyBlocks.svelte";
+
+  import TheAnimateDirective from "./lib/11. Animations/a_TheAnimateDirective.svelte";
 </script>
 
 <main>
@@ -144,6 +146,9 @@
   <LocalTransitions />
   <DeferredTransitions />
   <KeyBlocks />
+
+  <!-- 11. Animations -->
+  <TheAnimateDirective />
 </main>
 
 <style>
