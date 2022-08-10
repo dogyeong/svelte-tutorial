@@ -69,6 +69,9 @@
   import KeyBlocks from "./lib/10. Transitions/h_KeyBlocks.svelte";
 
   import TheAnimateDirective from "./lib/11. Animations/a_TheAnimateDirective.svelte";
+
+  import TheUseDirective from "./lib/12. Actions/a_TheUseDirective.svelte";
+  import ActionAddingParameters from "./lib/12. Actions/b_AddingParameters.svelte";
 </script>
 
 <main>
@@ -149,6 +152,10 @@
 
   <!-- 11. Animations -->
   <TheAnimateDirective />
+
+  <!-- 12. Actions -->
+  <TheUseDirective />
+  <ActionAddingParameters />
 </main>
 
 <style>
