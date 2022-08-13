@@ -72,6 +72,11 @@
 
   import TheUseDirective from "./lib/12. Actions/a_TheUseDirective.svelte";
   import ActionAddingParameters from "./lib/12. Actions/b_AddingParameters.svelte";
+
+  import TheClassDirective from "./lib/13. Advanced Styling/a_TheClassDirective.svelte";
+  import ShorthandClassDirective from "./lib/13. Advanced Styling/b_ShorthandClassDirective.svelte";
+  import InlineStyles from "./lib/13. Advanced Styling/c_InlineStyles.svelte";
+  import TheStyleDirective from "./lib/13. Advanced Styling/d_TheStyleDirective.svelte";
 </script>
 
 <main>
@@ -82,15 +87,18 @@
   <Styling />
   <NestedComponents />
   <HtmlTags />
+
   <!-- 02. reactivity -->
   <Assignments />
   <Declarations />
   <Statements />
   <UpdatingArrayAndObject />
+
   <!-- 03. Props -->
   <DeclaringProps answer={30} />
   <DefaultValues />
   <SpreadProps {...{ name: "doe", age: 30 }} />
+
   <!-- 04. Logic -->
   <IfBlocks />
   <ElseBlocks />
@@ -98,6 +106,7 @@
   <EachBlocks />
   <KeyedEachBlocks />
   <AwaitBlocks />
+
   <!-- 05. Events -->
   <DOMEvents />
   <InlineHandlers />
@@ -156,6 +165,12 @@
   <!-- 12. Actions -->
   <TheUseDirective />
   <ActionAddingParameters />
+
+  <!-- 13. Advanced Styling -->
+  <TheClassDirective />
+  <ShorthandClassDirective />
+  <InlineStyles />
+  <TheStyleDirective />
 </main>
 
 <style>
