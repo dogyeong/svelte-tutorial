@@ -77,6 +77,12 @@
   import ShorthandClassDirective from "./lib/13. Advanced Styling/b_ShorthandClassDirective.svelte";
   import InlineStyles from "./lib/13. Advanced Styling/c_InlineStyles.svelte";
   import TheStyleDirective from "./lib/13. Advanced Styling/d_TheStyleDirective.svelte";
+
+  import Slots from "./lib/14. Component composition/a. Slots/a_Slots.svelte";
+  import SlotFallback from "./lib/14. Component composition/b. Slot fallback/b_SlotFallback.svelte";
+  import NamedSlots from "./lib/14. Component composition/c. Named slots/c_NamedSlots.svelte";
+  import CheckingForSlotContent from "./lib/14. Component composition/d. Checking for slot content/d_CheckingForSlotContent.svelte";
+  import SlotProps from "./lib/14. Component composition/e. Slot props/e_SlotProps.svelte";
 </script>
 
 <main>
@@ -171,6 +177,13 @@
   <ShorthandClassDirective />
   <InlineStyles />
   <TheStyleDirective />
+
+  <!-- 14. Component composition -->
+  <Slots />
+  <SlotFallback />
+  <NamedSlots />
+  <CheckingForSlotContent />
+  <SlotProps />
 </main>
 
 <style>
