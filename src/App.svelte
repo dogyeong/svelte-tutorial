@@ -83,6 +83,8 @@
   import NamedSlots from "./lib/14. Component composition/c. Named slots/c_NamedSlots.svelte";
   import CheckingForSlotContent from "./lib/14. Component composition/d. Checking for slot content/d_CheckingForSlotContent.svelte";
   import SlotProps from "./lib/14. Component composition/e. Slot props/e_SlotProps.svelte";
+
+  import SetContextAndGetContext from "./lib/15. Context API/a_SetContextAndGetContext.svelte";
 </script>
 
 <main>
@@ -184,6 +186,9 @@
   <NamedSlots />
   <CheckingForSlotContent />
   <SlotProps />
+
+  <!-- 15. Context API -->
+  <SetContextAndGetContext />
 </main>
 
 <style>
