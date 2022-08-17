@@ -85,6 +85,16 @@
   import SlotProps from "./lib/14. Component composition/e. Slot props/e_SlotProps.svelte";
 
   import SetContextAndGetContext from "./lib/15. Context API/a_SetContextAndGetContext.svelte";
+
+  import Self from "./lib/16. Special elements/a_self/App.svelte";
+  import Component from "./lib/16. Special elements/b_component/App.svelte";
+  import Element from "./lib/16. Special elements/c_element/App.svelte";
+  import Window from "./lib/16. Special elements/d_window/App.svelte";
+  import WindowBindings from "./lib/16. Special elements/e_windowBindings/App.svelte";
+  import Body from "./lib/16. Special elements/f_body/App.svelte";
+  import Head from "./lib/16. Special elements/g_head/App.svelte";
+  import Options from "./lib/16. Special elements/h_options/App.svelte";
+  import Fragment from "./lib/16. Special elements/i_fragment/App.svelte";
 </script>
 
 <main>
@@ -189,6 +199,17 @@
 
   <!-- 15. Context API -->
   <SetContextAndGetContext />
+
+  <!-- 16. Special elements -->
+  <Self />
+  <Component />
+  <Element />
+  <Window />
+  <WindowBindings />
+  <Body />
+  <Head />
+  <Options />
+  <Fragment />
 </main>
 
 <style>
