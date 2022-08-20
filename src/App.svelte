@@ -95,6 +95,9 @@
   import Head from "./lib/16. Special elements/g_head/App.svelte";
   import Options from "./lib/16. Special elements/h_options/App.svelte";
   import Fragment from "./lib/16. Special elements/i_fragment/App.svelte";
+
+  import SharingCode from "./lib/17. Module context/a. Sharing code/App.svelte";
+  import Exports from "./lib/17. Module context/b. Exports/App.svelte";
 </script>
 
 <main>
@@ -210,6 +213,10 @@
   <Head />
   <Options />
   <Fragment />
+
+  <!-- 17. Module context -->
+  <SharingCode />
+  <Exports />
 </main>
 
 <style>
