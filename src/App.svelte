@@ -98,6 +98,8 @@
 
   import SharingCode from "./lib/17. Module context/a. Sharing code/App.svelte";
   import Exports from "./lib/17. Module context/b. Exports/App.svelte";
+
+  import TheDebugTag from "./lib/18. Debugging/a_TheDebugTag.svelte";
 </script>
 
 <main>
@@ -217,6 +219,9 @@
   <!-- 17. Module context -->
   <SharingCode />
   <Exports />
+
+  <!-- 18. Debugging -->
+  <TheDebugTag />
 </main>
 
 <style>
